@@ -1457,8 +1457,10 @@ class LBN_Admin {
                 <div class="lbn-copyright-content">
                     <p>
                         <span class="dashicons dashicons-admin-appearance" style="margin-right: 5px; color: #667eea;"></span>
-                        <?php printf(
-                            __('Login Branding Plugin &copy; %s - Crafted with %s for WordPress', 'wp-login-branding'),
+                        <?php 
+                        /* translators: %1$s: Current year, %2$s: Heart icon HTML */
+                        printf(
+                            __('Login Branding Plugin &copy; %1$s - Crafted with %2$s for WordPress', 'wp-login-branding'),
                             date('Y'),
                             '<span class="dashicons dashicons-heart" style="color: #e74c3c; font-size: 14px; margin: 0 3px;"></span>'
                         ); ?>
