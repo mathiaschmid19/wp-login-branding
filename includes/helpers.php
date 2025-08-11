@@ -193,7 +193,8 @@ function lbn_check_requirements() {
     // Check PHP version
     if (version_compare(PHP_VERSION, $requirements['php_version'], '<')) {
         $errors[] = sprintf(
-            __('PHP version %s or higher is required. You are running version %s.', 'wp-login-branding'),
+            /* translators: %1$s: Required PHP version, %2$s: Current PHP version */
+            __('PHP version %1$s or higher is required. You are running version %2$s.', 'wp-login-branding'),
             $requirements['php_version'],
             PHP_VERSION
         );
@@ -203,7 +204,8 @@ function lbn_check_requirements() {
     global $wp_version;
     if (version_compare($wp_version, $requirements['wp_version'], '<')) {
         $errors[] = sprintf(
-            __('WordPress version %s or higher is required. You are running version %s.', 'wp-login-branding'),
+            /* translators: %1$s: Required WordPress version, %2$s: Current WordPress version */
+            __('WordPress version %1$s or higher is required. You are running version %2$s.', 'wp-login-branding'),
             $requirements['wp_version'],
             $wp_version
         );

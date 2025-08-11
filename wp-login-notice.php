@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Login Screen Branding & Notice
- * Plugin URI: https://yourwebsite.com
+ * Plugin URI: https://github.com/mathiaschmid19/wp-login-branding
  * Description: Customize WordPress login screen with custom logo, background, and scheduled notices with WYSIWYG editor.
  * Version: 1.0.1
- * Author: Your Name
- * Author URI: https://yourwebsite.com
+ * Author: Amine Ouhannou
+ * Author URI: https://amineouhannou.com
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: wp-login-branding

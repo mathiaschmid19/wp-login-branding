@@ -226,7 +226,8 @@ function lbn_get_notice_preview() {
     $status = lbn_get_notice_status();
     
     return sprintf(
-        __('Content: %s | Status: %s', 'wp-login-branding'),
+        /* translators: %1$s: Notice content preview, %2$s: Notice status */
+        __('Content: %1$s | Status: %2$s', 'wp-login-branding'),
         $content,
         $status
     );
