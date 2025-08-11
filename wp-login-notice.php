@@ -8,7 +8,7 @@
  * Author URI: https://yourwebsite.com
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: login-branding-notice
+ * Text Domain: wp-login-branding
  * Domain Path: /languages
  */
 
@@ -33,7 +33,7 @@ class LoginBrandingNotice {
     }
     
     public function load_textdomain() {
-        load_plugin_textdomain('login-branding-notice', false, dirname(plugin_basename(__FILE__)) . '/languages/');
+        load_plugin_textdomain('wp-login-branding', false, dirname(plugin_basename(__FILE__)) . '/languages/');
     }
     
     public function init() {

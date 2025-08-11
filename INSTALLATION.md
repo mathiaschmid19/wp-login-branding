@@ -185,8 +185,8 @@ The plugin is designed to work on all devices:
 
 The plugin is translation-ready:
 
-1. **POT File:** `languages/login-branding-notice.pot`
-2. **Text Domain:** `login-branding-notice`
+1. **POT File:** `languages/wp-login-branding.pot`
+2. **Text Domain:** `wp-login-branding`
 3. **Translation Files:** Place in `languages/` directory
 
 ### Creating Translations
@@ -196,8 +196,8 @@ The plugin is translation-ready:
 3. Compile to MO files for production use
 
 Example for Spanish:
-- `login-branding-notice-es_ES.po`
-- `login-branding-notice-es_ES.mo`
+- `wp-login-branding-es_ES.po`
+- `wp-login-branding-es_ES.mo`
 
 ## 📞 Support
 

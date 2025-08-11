@@ -219,14 +219,14 @@ function lbn_get_notice_preview() {
     $settings = lbn_get_settings();
     
     if (empty($settings['notice_content'])) {
-        return __('No notice content set.', 'login-branding-notice');
+        return __('No notice content set.', 'wp-login-branding');
     }
     
     $content = wp_trim_words(strip_tags($settings['notice_content']), 20, '...');
     $status = lbn_get_notice_status();
     
     return sprintf(
-        __('Content: %s | Status: %s', 'login-branding-notice'),
+        __('Content: %s | Status: %s', 'wp-login-branding'),
         $content,
         $status
     );

@@ -25,7 +25,7 @@ wp-login-branding/
 │   ├── admin-styles.css           # Admin styling
 │   └── css/login-styles.css       # Login page styling
 ├── 📁 languages/                  # Internationalization
-│   └── login-branding-notice.pot  # Translation template
+│   └── wp-login-branding.pot  # Translation template
 └── 📁 documentation/              # Project documentation
     ├── README.md                  # Main documentation
     ├── INSTALLATION.md            # Installation guide

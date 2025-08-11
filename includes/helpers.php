@@ -57,7 +57,7 @@ function lbn_is_notice_active($start_date = '', $end_date = '') {
  */
 function lbn_format_date($date, $format = 'F j, Y') {
     if (empty($date)) {
-        return __('Not set', 'login-branding-notice');
+        return __('Not set', 'wp-login-branding');
     }
     
     return date_i18n($format, strtotime($date));
@@ -70,17 +70,17 @@ function lbn_get_notice_status() {
     $settings = lbn_get_settings();
     
     if (empty($settings['notice_enabled'])) {
-        return __('Disabled', 'login-branding-notice');
+        return __('Disabled', 'wp-login-branding');
     }
     
     if (empty($settings['notice_content'])) {
-        return __('No content', 'login-branding-notice');
+        return __('No content', 'wp-login-branding');
     }
     
     if (lbn_is_notice_active($settings['notice_start_date'], $settings['notice_end_date'])) {
-        return __('Active', 'login-branding-notice');
+        return __('Active', 'wp-login-branding');
     } else {
-        return __('Scheduled', 'login-branding-notice');
+        return __('Scheduled', 'wp-login-branding');
     }
 }
 
@@ -193,7 +193,7 @@ function lbn_check_requirements() {
     // Check PHP version
     if (version_compare(PHP_VERSION, $requirements['php_version'], '<')) {
         $errors[] = sprintf(
-            __('PHP version %s or higher is required. You are running version %s.', 'login-branding-notice'),
+            __('PHP version %s or higher is required. You are running version %s.', 'wp-login-branding'),
             $requirements['php_version'],
             PHP_VERSION
         );
@@ -203,7 +203,7 @@ function lbn_check_requirements() {
     global $wp_version;
     if (version_compare($wp_version, $requirements['wp_version'], '<')) {
         $errors[] = sprintf(
-            __('WordPress version %s or higher is required. You are running version %s.', 'login-branding-notice'),
+            __('WordPress version %s or higher is required. You are running version %s.', 'wp-login-branding'),
             $requirements['wp_version'],
             $wp_version
         );

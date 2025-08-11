@@ -282,7 +282,7 @@ wp-login-branding/
 │   ├── functions.php          # Core functions
 │   └── helpers.php            # Helper functions
 ├── languages/
-│   └── login-branding-notice.pot  # Translation template
+│   └── wp-login-branding.pot  # Translation template
 └── test-plugin.php            # Testing utilities
 ```
 
@@ -290,8 +290,8 @@ wp-login-branding/
 
 The plugin is translation-ready. To create translations:
 
-1. Use the provided POT file: `/languages/login-branding-notice.pot`
-2. Create PO files for your language (e.g., `login-branding-notice-es_ES.po`)
+1. Use the provided POT file: `/languages/wp-login-branding.pot`
+2. Create PO files for your language (e.g., `wp-login-branding-es_ES.po`)
 3. Compile to MO files
 4. Place in the `/languages/` directory
 
