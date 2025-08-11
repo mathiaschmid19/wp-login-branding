@@ -1,0 +1,178 @@
+# Copyright (C) 2024 Login Branding Notice
+# This file is distributed under the same license as the Login Branding Notice package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Login Branding Notice 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/class-admin.php
+msgid "Login Branding & Notice"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Customize your WordPress login page with branding and notices."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Branding Settings"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Customize the appearance of your login page."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Notice Settings"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Configure notices to display on the login page."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Custom Logo"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Background Image"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Enable Notice"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Notice Content"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Notice Dates"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Upload Logo"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Remove"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Upload a custom logo for the login screen. Recommended size: 320x80 pixels or similar aspect ratio."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Upload Background"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Upload a background image for the login screen. Recommended size: 1920x1080 pixels or higher."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Enable notice display on login page"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Enter the notice content to display on the login screen. You can use the rich editor to format text, add links, and insert media."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Start Date:"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "End Date:"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Leave dates empty to display the notice permanently when enabled. Use YYYY-MM-DD format."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Quick Actions"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Preview Login Page"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Preview Notice"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Plugin Info"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Version:"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Requirements:"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Notice Preview"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Please enter some notice content first."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Loading preview..."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Error loading preview."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Please enter a valid logo URL."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Please enter a valid background image URL."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Please enter a valid start date (YYYY-MM-DD)."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Please enter a valid end date (YYYY-MM-DD)."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Start date cannot be after end date."
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Please fix the following errors:"
+msgstr ""
+
+#: includes/class-admin.php
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: includes/helpers.php
+msgid "Login Branding Notice requires PHP %s or higher."
+msgstr ""
+
+#: includes/helpers.php
+msgid "Login Branding Notice requires WordPress %s or higher."
+msgstr ""
